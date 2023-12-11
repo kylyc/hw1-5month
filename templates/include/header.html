@@ -1,0 +1,23 @@
+{% load static %}
+<a data-scroll href="#header" id="scroll-to-top"><i class="ti-angle-up"></i></a>
+
+<header id="header" class="header-section">
+    <div class="container">
+        <nav class="navbar">
+            <a href="#" class="navbar-brand"><img src="img/logo.png" alt="Xavia"></a>
+            <div class="d-flex menu-wrap">
+                <div id="navmenu" class="mainmenu">
+                    <ul class="nav">
+                        <li><a data-scroll class="nav-link active" href="{% url 'index' %}">Домой <span class="sr-only">(current)</span></a></li>
+                        <li><a data-scroll class="nav-link" href="{% url 'about' %}">О нас</a></li>
+                        <li><a data-scroll class="nav-link" href="{% url 'services' %}">Сервисы</a></li>
+                        <li><a data-scroll class="nav-link" href="#portfolio">Портфолио</a></li>
+                        <li><a data-scroll class="nav-link" href="#reviews">Отзывы</a></li>
+                        <li><a data-scroll class="nav-link" href="#contact">Контакт</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<!--.header-section -->
